@@ -40,7 +40,7 @@ $ docker-compose down
 
 Inicia o(s) contêiner(es):
 ``` bash
-$ docker-compose start [nomedoserviço...]
+$ docker-compose up -d 
 ```
 
 Para o(s) contêiner(es):
