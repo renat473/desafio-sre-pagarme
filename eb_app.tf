@@ -2,7 +2,7 @@ resource "aws_elastic_beanstalk_application" "eb_desafio" {
   name        = "app-pagarme-desafio"
   description = "app desafio pagarme"
 
-}#eb-tf-app
+} #eb-tf-app
 
 resource "aws_elastic_beanstalk_application_version" "desafio_app_version" {
   bucket      = aws_s3_bucket.eb_bucket.id
